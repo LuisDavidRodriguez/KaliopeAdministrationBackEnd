@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aviso de Privacidad</title>
 </head>
-<body>
+<body>jeje
     <h1>Aviso de privacidad</h1>
     <h4>El presente aviso de privacidad se establece en cumplimiento de lo dispuesto en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.
 “KALIOPE MEXICO”, con domicilio en ” ENTREVISTA DE CHARO #43B, TENENCIA MORELOS, MORELIA, MICHOACAN”, México, es responsable de recabar sus datos personales, del uso que 
