@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inventarios de los Agentes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        
+        
+            
+        <h1>Detalle del respaldo</h1> 
+
+        <br> <br>
+
+       
+                Id:<input id="Hola" type="text" name="nombre" value="<?php echo $registroDevuelto[0]['id'] ?>" readonly="true"/>           
+                <br>
+                Propietario:<input id="Hola" type="text" name="nombre" value="<?php echo $registroDevuelto[0]['propietario'] ?>" readonly="true"/>           
+                <br>
+                Version:<input type="text" name="existencias" value="<?php echo $registroDevuelto[0]['version'] ?>" readonly="true"/>
+                <br>
+                Piezas:<input type="text" name="importe" value="<?php echo $registroDevuelto[0]['piezas_totales'] ?>" readonly="true" />
+                <br>
+                Importe:<input type="text" name="pulsera" value="<?php echo $registroDevuelto[0]['importe_total'] ?>" readonly="true" />
+                <br>
+                Version enviada el:<input type="text" name="importe" value="<?php echo $registroDevuelto[0]['hora_de_envio'] ?>" readonly="true" />
+                <br>
+                Hora del respaldo:<input type="text" name="importe" value="<?php echo $registroDevuelto[0]['hora_de_respaldo'] ?>" readonly="true" />
+        
+        
+       
+        <br> <br> <br> 
+        
+         <!--Apesar de que tenemos todo el detalle del inventario solo mostramos el codigo y las existencias-->
+
+            Codigo________________Existencias<br>
+            <?php foreach ($arrayDelJson as $producto):; ?>
+            
+            
+
+                <input id="Hola" type="text" name="nombre" value="<?php echo $producto['codigo'] ?>" readonly="true"/>           
+                
+                <input id="Hola" type="text" name="nombre" value="<?php echo $producto['existencia'] ?>" readonly="true"/>           
+
+                <br><br> 
+
+            <?php endforeach; ?>
+
+
+            <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+            <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+            
+            
+            <!--Creamos el link que enviara a restaurar este respaldo al inventario-->
+            <a href="confirmacion_del_respaldo.view.php?id=<?php echo $registroDevuelto[0]['id'] ?>">Restaurar Este Inventario</a>
+
+
+    </body>
+</html>

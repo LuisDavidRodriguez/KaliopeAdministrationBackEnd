@@ -1,0 +1,469 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: antiquewhite;
+    background-image: url(../img/qbkls.png);
+    }
+
+
+div.contenedor{
+    width: 1400px;
+    margin: auto;
+}
+
+.botonCerrar {
+	background-color:#fe1a00;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-align: center;
+	width: 140px;
+	margin-left: inherit;
+}
+.botonCerrar:hover {
+	background-color:#ce0100;
+}
+.botonCerrar:active {
+	position:relative;
+	top:1px;
+}
+
+.botonSeleccionaRuta {
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 24px;
+    text-decoration:none;
+    width: 140px;
+}
+.botonSeleccionaRuta:hover {
+	background-color:#6c7c7c;
+}
+.botonSeleccionaRuta:active {
+	position:relative;
+	top:1px;
+}
+
+.botonSeleccionaAgente {
+	background-color:#589e8b;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #378d72;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 15px;
+    text-decoration:none;
+    width: 140px;
+}
+.botonSeleccionaAgente:hover {
+	background-color:#2d9191;
+}
+.botonSeleccionaAgente:active {
+	position:relative;
+	top:1px;
+}
+
+
+.botonGuardar {
+	background-color:#3d94f6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #337fed;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+    padding:15px 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+	text-decoration:none;
+}
+.botonGuardar:hover {
+	background-color:#1e62d0;
+}
+.botonGuardar:active {
+	top:1px;
+}
+
+
+input
+{   
+    border: 0;
+    border-bottom: 2px solid rgba(101, 143, 34, 0.795);
+    border-radius: 6px;
+    padding: 1px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+form{
+    width: 1360px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    background: mistyrose;
+    display: inside;
+    overflow: hidden;
+    box-shadow: 0 0 3px grey;
+    border-top: 4px solid deeppink;
+    font-size: 15px;
+    color: deeppink;
+
+}
+
+
+div.datos_dia{
+    float: left;
+    width: 1000px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+div.datos_dia input{
+ background-color:#ffffff00;
+ margin-right: 10px;
+ width: 80px;
+ margin-bottom: 10px;
+ font-size: 14px;
+}
+
+div.datos_nomina{
+    float: left;
+    width: 1000px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+div.datos_nomina input{
+    background-color:#ffffff00;
+    margin-right: 10px;
+    width: 80px;
+    margin-bottom: 10px;
+    font-size: 14px;
+   }
+
+
+
+  legend{
+    text-align: center;
+    font-size: 17px;
+    color: #1e62d0;
+    margin-bottom: 5px;
+}
+
+form input[type="text"]:focus
+{
+    border-bottom:  2px solid rgb(4, 77, 14);
+    
+}
+
+form input
+{   
+    border: 0;
+    border-bottom: 2px solid rgba(101, 143, 34, 0.795);
+    border-radius: 6px;
+    padding: 1px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    margin-bottom:5px;
+}
+
+
+/*FORMULARIO DATOS DEL DIA*/
+
+
+form input[title="Zona"]
+{
+    width: 190px;
+    background-color: #ffffff00;
+}
+
+
+form input[title="Fecha"]
+{
+    width: 90px;
+    background-color: #ffffff00;
+}
+
+form input[title="Cobro"]
+{
+    width: 70px;
+    background-color: #ffffff00;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input[title="Nuevas"]
+{
+    width: 45px;
+    background-color: #ffffff00;
+}
+
+form input[title="Lios"]
+{
+    width: 45px;
+    background-color: #ffffff00;
+}
+
+form input[title="Sobrante combustible"]
+{
+    width: 45px;
+    background-color: #ffffff00;
+}
+
+form input[title="Adelantos"]
+{
+    width: 45px;
+    background-color: #ffffff00;
+}
+
+form input[title="Gasolina"]
+{
+    width: 45px;
+    background-color: #ffffff00;
+}
+
+form input[title="Gastos"]
+{
+    width: 40px;
+    background-color: #ffffff00;
+    border-bottom-right-radius: 0px;
+    
+}
+
+form input[title="Concepto Gastos"]
+{
+    width: 135px;
+    background-color: #ffffff00;
+    border-bottom-left-radius: 0px;
+    margin-left: -10px;
+}
+
+form input[title="Total"]
+{
+    width: 55px;
+    background-color: #ffffff00;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+/*FORMULARIO DATOS DEL DIA*/
+
+/*FORMULARIO DATOS DE NOMINA*/
+
+
+form input[title="Agente"]
+{
+    width: 300px;
+    background-color: #ffffff00;
+}
+
+form input[title="Sueldo base"]
+{
+    width: 50px;
+    background-color: #ffffff00;
+}
+
+form input[title="Porcentaje de Comiciones"]
+{
+    width: 40px;
+    background-color: #ffffff00;
+    border-bottom-right-radius: 0px;
+}
+
+form input[title="Comiciones"]
+{
+    width: 80px;
+    background-color: #ffffff00;
+    border-bottom-left-radius: 0px;
+    margin-left: -10px;
+}
+
+form input[title="Porcentaje de Lios"]
+{
+    width: 40px;
+    background-color: #ffffff00;
+    border-bottom-right-radius: 0px;
+}
+
+form input[title="Bono Lios"]
+{
+    width: 80px;
+    background-color: #ffffff00;
+    border-bottom-left-radius: 0px;
+    margin-left: -10px;
+}
+
+form input[title="Pago de Nuevas"]
+{
+    width: 40px;
+    background-color: #ffffff00;
+    border-bottom-right-radius: 0px;
+}
+
+form input[title="Bono Nuevas"]
+{
+    width: 80px;
+    background-color: #ffffff00;
+    border-bottom-left-radius: 0px;
+    margin-left: -10px;
+}
+
+
+form input[title="Bonos"]
+{
+    width: 50px;
+    background-color: #ffffff00;
+    border-bottom-right-radius: 0px;
+}
+
+form input[title="Descripcion Bono"]
+{
+    width: 300px;
+    background-color: #ffffff00;
+    border-bottom-left-radius: 0px;
+    margin-left: -10px;
+}
+
+form input[title="Subtotal Nomina"]
+{
+    width: 100px;
+    background-color: #ffffff00;
+}
+
+form input[title="Descuento"]
+{
+    width: 50px;
+    background-color: #ffffff00;
+    border-bottom-right-radius: 0px;
+}
+
+form input[title="Concepto descuento"]
+{
+    width: 350px;
+    background-color: #ffffff00;
+    border-bottom-left-radius: 0px;
+    margin-left: -10px;
+
+}
+
+form input[title="Total Nomina"]
+{
+    width: 100px;
+    background-color: #ffffff00;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+form input[title="Concepto de Retiro"]
+{
+    width: 200px;
+    background-color: #ffffff00;
+
+}
+
+form input[title="Motivo del bloqueo"]
+{
+    width: 700px;
+    background-color: #ffffff00;
+    color: red;
+    font-size: 18px;
+
+}
+
+
+
+
+
+/*FORMULARIO DATOS DE NOMINA*/
+
+
+/*BARRA DE FECHAS - Muestra las fechas*/
+
+div.barra_fechas{
+    width: 1360px;
+    position: sticky;
+    bottom: 5px;
+}
+
+.barra_fechas ul{
+    margin-left: auto;
+}
+
+.barra_fechas ul li {
+    display: inline-block;
+    margin-right: 0px; 
+}
+
+.barra_fechas ul .active a {
+    background: #ce7f08;
+}
+
+.barra_fechas ul .disabled {
+    background: #c8c8c8;
+    display: inline-block;
+    font-family: "Oswald", Arial, helvetica, sans-serif;
+    padding: 15px 25px;
+    cursor:not-allowed;
+    color:#fff;
+    text-decoration: none;
+}
+
+.barra_fechas ul li a {
+    display: inline-block;
+    font-family: "Oswald", Arial, helvetica, sans-serif;
+    font-size: 14px;
+    padding: 4px 5px;
+    background: #424242;
+    color:#fff;
+    text-decoration: none;
+}
+
+.barra_fechas ul li a:hover {
+    text-decoration: none;
+    background: #3299bb;
+}
+
+/*BARRA DE FECHAS - Muestra las fechas*/

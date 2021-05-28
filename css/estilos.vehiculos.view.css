@@ -1,0 +1,268 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: antiquewhite;
+    background-image: url(../img/qbkls.png);
+    }
+
+
+div.contenedor{
+    width: 1400px;
+    margin: auto;
+}
+
+.botonCerrar {
+	background-color:#fe1a00;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-align: center;
+	width: 140px;
+	margin-left: inherit;
+}
+.botonCerrar:hover {
+	background-color:#ce0100;
+}
+.botonCerrar:active {
+	position:relative;
+	top:1px;
+}
+
+.botonSeleccionaRuta {
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 24px;
+    text-decoration:none;
+    width: 140px;
+}
+.botonSeleccionaRuta:hover {
+	background-color:#6c7c7c;
+}
+.botonSeleccionaRuta:active {
+	position:relative;
+	top:1px;
+}
+
+.botonSeleccionaUnidad {
+	background-color:#589e8b;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #378d72;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 15px;
+    text-decoration:none;
+    width: 140px;
+}
+.botonSeleccionaUnidad:hover {
+	background-color:#2d9191;
+}
+.botonSeleccionaUnidad:active {
+	position:relative;
+	top:1px;
+}
+
+
+.botonGuardar {
+	background-color:#3d94f6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #337fed;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+    padding:15px 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+	text-decoration:none;
+	width: 150px;
+}
+.botonGuardar:hover {
+	background-color:#1e62d0;
+}
+.botonGuardar:active {
+	top:1px;
+}
+
+
+#datos
+{   
+    border: 0;
+    border-bottom: 2px solid rgba(101, 143, 34, 0.795);
+    border-radius: 6px;
+    padding: 1px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+form{
+    width: 1360px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    background: mistyrose;
+    display: inside;
+    overflow: hidden;
+    box-shadow: 0 0 3px grey;
+    border-top: 4px solid deeppink;
+    font-size: 15px;
+	color: deeppink;
+	text-align: center;
+
+}
+
+  legend{
+    text-align: center;
+    font-size: 17px;
+    color: #1e62d0;
+    margin-bottom: 5px;
+}
+
+form input[type="text"]:focus
+{
+    border-bottom:  2px solid rgb(4, 77, 14);
+    
+}
+
+form input
+{   
+    border: 0;
+    border-bottom: 2px solid rgba(101, 143, 34, 0.795);
+    border-radius: 6px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-bottom:5px;
+    width: 100px;
+    background-color: #ffffff00;
+}
+
+
+th
+{
+ width: 120px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ color: deeppink;
+}
+
+td{
+	text-align: center;
+}
+
+#folioReparacion{
+	width: 30px;
+}
+
+#unidadReparacion{
+	width: 30px;
+}
+
+#kmReparacion{
+	width: 70px;
+}
+
+#fechaReparacion{
+	width: 100px;
+}
+
+#piezasCambiadas{
+	width: 270px;
+}
+
+#marca{
+	width: 90px;
+}
+
+#compra{
+	width: 70px;
+}
+
+#taller{
+	width: 70px;
+}
+
+#km{
+	width: 70px;
+}
+
+
+#kmCambio{
+	width: 70px;
+}
+
+#fechaCambio{
+	width: 100px;
+}
+
+#diasRestantes{
+	width: 50px;
+}
+
+#kmRestante{
+	width: 50px;
+}
+
+#reporte{
+	width: 100px;
+}
+
+#cambiado{
+	background-color: darkgreen;
+	width: 100px;
+	color: white;
+}
+
+#serie{
+	width: 200px
+}
+
+#descripcion{
+	width: 600px;
+}
+
+#folio{
+	width: 30px;
+}
+
+#unidad{
+	width: 30px;
+}
